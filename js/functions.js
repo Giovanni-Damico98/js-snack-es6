@@ -76,7 +76,7 @@ function isNumber(value) {
  * const numeriCasuali = getRandomNumbers(10, 5);
  * console.log(numeriCasuali); // Può restituire: [3, 7, 1, 9, 5]
  */
-const getRandomNumbers = (max, totalNumbers) => {
+const getRandomNumbersInArray = (max, totalNumbers) => {
   const numbers = [];
   while (numbers.length < totalNumbers) {
     const randomNumber = Math.floor(Math.random() * max) + 1;
